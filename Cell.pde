@@ -32,7 +32,7 @@ class Cell{
         fill(180);
         textSize(22);
         textAlign(CENTER,CENTER);
-        text(numNeighbors,x+15.5,y+13.5);
+        text(numNeighbors,x+size/2,y+size/2);
       }
       else{
         fill(80);
@@ -69,7 +69,7 @@ class Cell{
       fill(180);
       textSize(22);
       textAlign(CENTER,CENTER);
-      text("B",x+15.5,y+13.5);
+      text("B",x+size/2,y+size/2);
     }
   }
 }
